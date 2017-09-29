@@ -1,0 +1,594 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  /* navbar as my header */
+  /* this footer implements CSS3 animation features */
+  /* this footer implement font-awesome scalable vector font */
+  /* this footer uses social media icons */
+}
+body #background-whole {
+  /* this background is also fixed */
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("https://cdn100.picsart.com/206602471000202.gif");
+  background-repeat: "";
+  background-position: "";
+  background-size: "";
+  position: fixed;
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+body * {
+  box-sizing: border-box;
+}
+body .title {
+  font-family: 'IM Fell DW Pica SC';
+  font-size: 150%;
+  font-weight: bold;
+}
+body header {
+  font-family: 'IM Fell DW Pica SC';
+  border-bottom: 1px solid #aaa;
+  float: left;
+  z-index: 10;
+  padding-bottom: 1em;
+  position: fixed;
+  width: 100%;
+  background-image: url("http://68.media.tumblr.com/259a8d6865a64b80f471a0998417ad6d/tumblr_mnvbvqVwwO1rkf2rso2_500.gif");
+  background-repeat: "";
+  background-position: "";
+  background-size: "";
+  /* navbar resizing */
+}
+body header nav {
+  width: 80%;
+  margin: 0 auto;
+}
+body header nav #introduction {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+body header nav ul {
+  padding-left: 5%;
+}
+body header nav ul #active {
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  color: #fefefe;
+  background-image: url("http://data.whicdn.com/images/278096107/original.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: "";
+  font-weight: bold;
+}
+body header nav li {
+  margin-top: 0.5em;
+  margin-right: 1.2em;
+  display: inline;
+  float: left;
+}
+body header nav a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+body header nav.small {
+  font-size: 70%;
+}
+body .main {
+  padding-top: 130px;
+  text-align: center;
+  /* history section */
+  /* general_rules section */
+  /* this section implements the column-layout requirement */
+  /* this section implements the CSS3 animation requirement */
+  /* japanese_rules section */
+  /* yaku section */
+  /* this section implements the carousel requirement with sliding and fading effect */
+  /* sliding and fading effects are also CSS3 animations combined with javascript */
+  /* score section */
+  /* this section implements modals */
+  /*ending section*/
+  /* anime section */
+  /* this section implement html5 video */
+  /* this section is both horizontally and vertically centered */
+  /* this section also implements the fixed background requirement */
+}
+body .main #history {
+  position: relative;
+  padding: 1em 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body .main #history .background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/31dNgq-rjpL._SX355_.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  opacity: 0.7;
+}
+body .main #general_rules {
+  padding: 1em 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+}
+body .main #general_rules .background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/41qRm9wSE7L._AC_UL320_SR318,320_.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  opacity: 0.7;
+}
+body .main #general_rules #pagewrap {
+  position: relative;
+  padding: 1em 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body .main #general_rules #pagewrap #left {
+  position: relative;
+  width: 33.33%;
+  padding: 5px 15px;
+  float: left;
+}
+body .main #general_rules #pagewrap #middle {
+  position: relative;
+  width: 33.33%;
+  padding: 5px 15px;
+  float: left;
+}
+body .main #general_rules #pagewrap #right2 {
+  position: relative;
+  width: 33.33%;
+  padding: 5px 15px;
+  float: left;
+}
+body .main #general_rules #pagewrap #right2 .height_determinator {
+  position: relative;
+  visibility: hidden;
+}
+body .main #general_rules #pagewrap .card__front {
+  position: absolute;
+  border: 1px solid #333;
+  border-radius: 20px 20px 20px 20px;
+  background-image: url("http://blogimg.goo.ne.jp/user_image/5b/ac/7873e37ff8ed53983736969f656b9254.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+body .main #general_rules #pagewrap .card__back {
+  position: absolute;
+  border: 1px solid #333;
+  border-radius: 20px 20px 20px 20px;
+  background-image: url("http://sozaishu.up.n.seesaa.net/sozaishu/image/09820CCF8A1BFWillow.gif?d=a40");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+body .main #general_rules #pagewrap .card.effect__click.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+body .main #general_rules #pagewrap .card.effect__click.flipped .card__back {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+body .main #general_rules #pagewrap footer {
+  clear: both;
+  padding: 0 15px;
+}
+body .main #japanese_rules {
+  position: relative;
+  padding: 1em 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body .main #japanese_rules .background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("https://i.imgur.com/FyJlM37.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  opacity: 0.7;
+}
+body .main #yaku {
+  padding: 1em 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  /* Slideshow container */
+  /* The dots allow you to jump to particular slide immediately */
+  /* another set of slides showing the description of the main slides */
+  /* Fading animation */
+}
+body .main #yaku .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  /* On hover, add a black background color with a little bit see-through */
+}
+body .main #yaku .slideshow-container .mySlides {
+  display: none;
+}
+body .main #yaku .slideshow-container .numbertext {
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+body .main #yaku .slideshow-container img {
+  width: 100%;
+}
+body .main #yaku .slideshow-container .prev {
+  position: absolute;
+  margin-top: -22px;
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  top: 50%;
+  left: 0;
+  width: auto;
+  cursor: pointer;
+  color: #000;
+  background-color: #aaa;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+body .main #yaku .slideshow-container .next {
+  position: absolute;
+  margin-top: -22px;
+  padding: 16px;
+  border-radius: 3px 0 0 3px;
+  top: 50%;
+  right: 0;
+  width: auto;
+  cursor: pointer;
+  color: #000;
+  background-color: #aaa;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+body .main #yaku .slideshow-container .prev:hover, body .main #yaku .slideshow-container .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+body .main #yaku .dots {
+  text-align: center;
+}
+body .main #yaku .dots .dot {
+  z-index: 10;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+body .main #yaku .dots .active, body .main #yaku .dots .dot:hover {
+  background-color: #717171;
+}
+body .main #yaku #des-container {
+  padding: 0 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+}
+body .main #yaku #des-container .desSlides {
+  display: none;
+}
+body .main #yaku #fading {
+  position: relative;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body .main #yaku #leftsliding {
+  position: relative;
+  left: 1000px;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 0s;
+  animation: slide 1s forwards;
+  animation-delay: 0s;
+}
+body .main #yaku #rightsliding {
+  position: relative;
+  left: -1000px;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 0s;
+  animation: slide 1s forwards;
+  animation-delay: 0s;
+}
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+body .main #score {
+  position: relative;
+  padding: 1em 2em 1em 2em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body .main #score .background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("http://rakugakiicon.com/ri/wp-content/uploads/2015/06/8fc97edd9aaeb49bf8974f2ecfd8d81e.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  opacity: 0.7;
+}
+body .main #score .btn_black {
+  color: #fff;
+  background-color: #333;
+  border-radius: 20px;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+body .main #score .modal {
+  z-index: 1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .main #score .modal-content {
+  margin: 15% auto;
+  padding: 20px;
+  background-image: url("https://cdn100.picsart.com/206602471000202.gif");
+  background-repeat: "";
+  background-position: "";
+  background-size: contain;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  width: 80%;
+}
+body .main #score .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+body .main #score .close:hover, body .main #score .close:focus {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+body .main #ending {
+  padding: 1em 2em 1em 2em;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body .main #ending .background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("https://i.imgur.com/YplU32o.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  opacity: 0.7;
+}
+body .main #anime {
+  position: relative;
+  padding: 1em 2em 1em 2em;
+  min-height: 500px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body .main #anime .background {
+  z-index: -1;
+  position: absolute;
+  margin-right: 60%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("http://lohas.nicoseiga.jp/thumb/1949210i?");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40% auto;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+body .main #anime .background2 {
+  z-index: -1;
+  position: absolute;
+  margin-left: 60%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("http://lohas.nicoseiga.jp/thumb/2239444i?");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 40% auto;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+body .main #anime video {
+  text-align: center;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 70%;
+  max-height: 100%;
+}
+body footer#site-footer {
+  background: #666;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 200px;
+  animation-name: footer_animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+body footer#site-footer #cover {
+  float: right;
+  padding-right: 1em;
+}
+@keyframes footer_animation {
+  0% {
+    background-image: url("https://i.imgur.com/jKLlznC.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+  25% {
+    background-image: url("https://i.imgur.com/arZEJKR.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+  50% {
+    background-image: url("http://flode-design.com/f/f_bamboo6/m_f_bamboo60.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+  75% {
+    background-image: url("http://flode-design.com/f/f_flower173/m_f_flower1730.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+  100% {
+    background-image: url("https://i.imgur.com/jKLlznC.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+}
+body footer#site-footer #facebook {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  float: left;
+}
+body footer#site-footer #facebook .fa-facebook-official {
+  color: #3b5998;
+}
+body footer#site-footer #twitter {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  float: left;
+}
+body footer#site-footer #twitter .fa-twitter-square {
+  color: #1da1f2;
+}
+body footer#site-footer #googleplus {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  float: left;
+}
+body footer#site-footer #googleplus .fa-google-plus-square {
+  color: #db4437;
+}
+body footer#site-footer #youtube {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  float: left;
+}
+body footer#site-footer #youtube .fa-youtube-square {
+  color: #cc181e;
+}
+body footer#site-footer #amazon {
+  margin-left: 0.3em;
+  float: left;
+}
+body footer#site-footer #amazon .fa-amazon {
+  color: #f90;
+}
