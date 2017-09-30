@@ -155,20 +155,20 @@ body .main #general_rules #pagewrap {
 }
 body .main #general_rules #pagewrap #left {
   position: relative;
-  width: 33.33%;
-  padding: 5px 15px;
+  width: 32.7%;
+  padding: 5px 15px 5px 15px;
   float: left;
 }
 body .main #general_rules #pagewrap #middle {
   position: relative;
-  width: 33.33%;
-  padding: 5px 15px;
+  width: 32.7%;
+  padding: 5px 15px 5px 15px;
   float: left;
 }
 body .main #general_rules #pagewrap #right2 {
   position: relative;
-  width: 33.33%;
-  padding: 5px 15px;
+  width: 32.7%;
+  padding: 5px 15px 5px 15px;
   float: left;
 }
 body .main #general_rules #pagewrap #right2 .height_determinator {
